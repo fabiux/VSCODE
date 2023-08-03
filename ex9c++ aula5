@@ -1,0 +1,12 @@
+#include<iostream>
+
+int main() {
+   int num;
+   std::cout << "Digite um numero: ";
+   std::cin >> num;
+   if(num % 2 == 0)
+        std::cout << num << " eh um numero par" << std::endl;
+   else
+        std::cout << num << " eh um numero impar" << std::endl;
+   retrun 0;
+}

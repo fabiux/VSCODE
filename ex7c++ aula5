@@ -1,0 +1,10 @@
+#include<iostream>
+
+int main() {
+   int n1, n2, soma;
+   std::cout << "Digite dois numeros: ";
+   std::cin >> n1 >> n2;
+   soma = n1 + n2;
+   std::cout << "A soma dos numeros eh " << soma << std::endl;
+   return 0;
+}

@@ -1,0 +1,11 @@
+#include <stdio.h> // adiconamos a biblioteca 
+
+int main() { // iniciamos o codigo 
+    int x = 10; // criamos uma variavel e damos um valor a ela 
+    int y = 20; // criamos uma variavel e damos um valor a ela 
+    int resultado = 0; // criamos uma variavel e damos um valor a ela 
+
+    /* Loop para somar os números de x até y */
+    for (int i = x; i <= y; i++) {
+        resultado += i;
+    }

@@ -1,0 +1,10 @@
+#include <iostream> //incluimos abiblioteca
+
+int main() { //para dar inicio a operaçao
+    int n; // cria-se a variavel n
+    std::cout << "Digite um número: "; // se da valor a n
+    std::cin >> n; // aqui liga a linha de codigo a n 
+    int square = n * n; // o valor da variavel square e igual a multiplicaçao de n com n 
+    std::cout << "O quadrado do número é: " << square << std::endl; // pra dar conclusao do resultado 
+    return 0; // concluir a operaçao
+}

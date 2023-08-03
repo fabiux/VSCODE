@@ -1,0 +1,13 @@
+#include <stdio.h>  // Inclui o cabeçalho stdio.h para usar as funções de entrada e saída padrão
+
+int main() {  // função principal do programa
+    int a = 5; // cria valor da variavel "a"
+    int b = 3; // cria valor da variavel "b"
+    int result; // criamos uma variavel result
+
+    result = a - b; //atribuimos valor a varavel result 
+
+    printf("O resultado da subtração é: %d\n", result);// printamos o valor da variavel
+
+    return 0; //serve pra dar conclusão ao codigo
+}
